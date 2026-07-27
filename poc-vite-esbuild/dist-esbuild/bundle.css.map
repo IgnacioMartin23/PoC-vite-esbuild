@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/style.css"],
+  "sourcesContent": ["body {\n    font-family: Arial, sans-serif;\n    background-color: #1e1e2e;\n    color: #cdd6f4;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    height: 100vh;\n    margin: 0;\n}\n\n.card {\n    background: #313244;\n    padding: 2rem;\n    border-radius: 12px;\n    text-align: center;\n    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);\n}\n\nbutton {\n    background-color: #89b4fa;\n    color: #11111b;\n    border: none;\n    padding: 10px 20px;\n    font-size: 1rem;\n    font-weight: bold;\n    border-radius: 6px;\n    cursor: pointer;\n    transition: background 0.2s;\n}\n\nbutton:hover {\n    background-color: #b4befe;\n}"],
+  "mappings": ";AAAA;AACI,eAAa,KAAK,EAAE;AACpB,oBAAkB;AAClB,SAAO;AACP,WAAS;AACT,mBAAiB;AACjB,eAAa;AACb,UAAQ;AACR,UAAQ;AACZ;AAEA,CAAC;AACG,cAAY;AACZ,WAAS;AACT,iBAAe;AACf,cAAY;AACZ,cAAY,EAAE,IAAI,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AACzC;AAEA;AACI,oBAAkB;AAClB,SAAO;AACP,UAAQ;AACR,WAAS,KAAK;AACd,aAAW;AACX,eAAa;AACb,iBAAe;AACf,UAAQ;AACR,cAAY,WAAW;AAC3B;AAEA,MAAM;AACF,oBAAkB;AACtB;",
+  "names": []
+}

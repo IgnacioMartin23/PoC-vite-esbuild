@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/counter.ts", "../src/main.ts"],
+  "sourcesContent": ["export function setupCounter(element: HTMLButtonElement): void {\n  \n  let counter: number = import.meta.hot?.data.count ?? 0;\n  \n  const setCounter = (count: number) => {\n    counter = count;\n    element.innerHTML = `Clicks realizados: ${counter}`;\n    \n    \n    if (import.meta.hot) {\n      import.meta.hot.data.count = counter;\n    }\n  };\n\n  element.addEventListener('click', () => setCounter(counter + 1));\n  setCounter(counter);\n}\n\n\nif (import.meta.hot) {\n  import.meta.hot.accept();\n}", "import './style.css';\nimport { setupCounter } from './counter';\n\ndocument.querySelector<HTMLDivElement>('#app')!.innerHTML = `\n  <div class=\"card\">\n    <h1>Prueba de Concepto</h1>\n    <h2>SSSSS vs esbuild</h2>\n    <p>Materia: Desarrollo de Software</p>\n    <button id=\"counter\" type=\"button\"></button>\n  </div>\n`;\n\nsetupCounter(document.querySelector<HTMLButtonElement>('#counter')!);\n\nif (import.meta.hot) {\n  import.meta.hot.accept();\n}"],
+  "mappings": ";AAAO,SAAS,aAAa,SAAkC;AAE7D,MAAI,UAAkB,YAAY,KAAK,KAAK,SAAS;AAErD,QAAM,aAAa,CAAC,UAAkB;AACpC,cAAU;AACV,YAAQ,YAAY,sBAAsB,OAAO;AAGjD,QAAI,YAAY,KAAK;AACnB,kBAAY,IAAI,KAAK,QAAQ;AAAA,IAC/B;AAAA,EACF;AAEA,UAAQ,iBAAiB,SAAS,MAAM,WAAW,UAAU,CAAC,CAAC;AAC/D,aAAW,OAAO;AACpB;AAGA,IAAI,YAAY,KAAK;AACnB,cAAY,IAAI,OAAO;AACzB;;;AClBA,SAAS,cAA8B,MAAM,EAAG,YAAY;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAS5D,aAAa,SAAS,cAAiC,UAAU,CAAE;AAEnE,IAAI,YAAY,KAAK;AACnB,cAAY,IAAI,OAAO;AACzB;",
+  "names": []
+}

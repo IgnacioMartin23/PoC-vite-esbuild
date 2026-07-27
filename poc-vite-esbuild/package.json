@@ -1,0 +1,17 @@
+{
+  "name": "poc-vite-esbuild",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:esbuild": "node build-esbuild.js",
+    "build:esbuild": "esbuild src/main.ts --bundle --format=esm --minify --outfile=dist-esbuild/bundle.js",
+    "dev:vite": "vite",
+    "build:vite": "vite build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
