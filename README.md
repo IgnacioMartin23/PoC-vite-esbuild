@@ -1,37 +1,61 @@
-#PoC: Vite - Esbuild
+# PoC: Vite - Esbuild
 
--
+## Alumnos
 
-##ALUMNOS: 
-*Ignacio Martin
-*Ignacio Bianchi 
-*Leonel Gambotto
-*Juan Ignacio Faccio
+- Ignacio Martin
+- Ignacio Bianchi
+- Leonel Gambotto
+- Juan Ignacio Faccio
 
--
+---
 
-##INFORME Y PRESENTACION:
-https://drive.google.com/drive/folders/1J9rI35T9ovPqTqRmqZUqLxU2GBZYsD2I?fbclid=IwAR2B7t7UepWqJpscWHV0833ilyOmbXzwH_W8zSMJTX16SBZaue4szIkKShI
+## Informe y presentación
 
--
+📄 [Ver informe y presentación en Drive](https://drive.google.com/drive/folders/1J9rI35T9ovPqTqRmqZUqLxU2GBZYsD2I?fbclid=IwAR2B7t7UepWqJpscWHV0833ilyOmbXzwH_W8zSMJTX16SBZaue4szIkKShI)
 
-##DESCRIPCIÓN DE PRUEBA TÉCNICA Y USO: 
-En la prueba técnica adjuntada realizamos pruebas de empaquetado y de inicio de servidor web mediante las herramientas trabajadas en la PoC (esbuild y Vite).
-Utilizamos la versión de Vite 5.0 la cuál utiliza un empaquetador "obsoleto" para que el punto de comparación sea más visible.
+---
 
--
+## Descripción de prueba técnica y uso
 
-##1) Previamente se debe clonar el repositorio
+En la prueba técnica adjuntada realizamos pruebas de empaquetado y de inicio de servidor web mediante las herramientas trabajadas en la PoC (**esbuild** y **Vite**).
 
-###2) Ejecutar los comandos previos en terminal:
-```npm install ```
+Utilizamos la versión de **Vite 5.0**, la cuál utiliza un empaquetador "obsoleto" para que el punto de comparación sea más visible.
 
-###3.a) Para ejecutar contador desde empaquetador "esbuild" en consola: 
-```npm run dev:esbuild -> Luego abrir servidor proporcionado```
+---
 
-###3.b) Para ejecutar contador desde entorno de desarroto "Vite" en consola: 
-```npm run dev:vite -> Luego abrir servidor proporcionado```
--
+## Instalación y ejecución
+
+### 1. Clonar el repositorio
+
+Previamente se debe clonar el repositorio.
+
+### 2. Instalar dependencias
+
+Ejecutar el siguiente comando en la terminal:
+
+```bash
+npm install
+```
+
+### 3. Ejecutar el proyecto
+
+**a) Contador desde empaquetador `esbuild`:**
+
+```bash
+npm run dev:esbuild
+```
+
+Luego abrir el servidor proporcionado.
+
+**b) Contador desde entorno de desarrollo `Vite`:**
+
+```bash
+npm run dev:vite
+```
+
+Luego abrir el servidor proporcionado.
+
+---
 
 ## Licencia
 
